@@ -8,7 +8,7 @@ void testSting();
 
 int main ( ) {
     bool print = false;
-    bool pritnft = true;
+    bool pritnft = 45;
 
     printf("%d\n", print ? 0 : pritnft);
     // List *cll = (List*)malloc(sizeof(List));

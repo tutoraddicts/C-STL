@@ -13,10 +13,11 @@
 
 typedef enum {
     false = 0,
-    true = 1,
+    true = 1
 }__bool;
 
 #define bool __bool
+
 
 // typedef int bool;
 // enum {false = 0, true = 1};

@@ -8,6 +8,7 @@
     #include "STRING/CString.h"
     #include "BOOL/CBool.h"
     #include "LINKEDLIST/CLinkedList.h"
+    #include "LINKEDLIST/CduoLinkList.h"
 
 #endif // !C_STD_L
 
