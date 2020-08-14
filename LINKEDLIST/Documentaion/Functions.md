@@ -4,4 +4,4 @@
 <p>> This is a Base template for out linkedList to reference the next Linked List</p><br>
 
 <h2><b>CLinkList(__data_type)</b></h2><br>
-<p>> Our main Linked List to create out LinkedList</p><br>
+<p>> Our main Linked List to declear our LinkedList variable</p><br>
