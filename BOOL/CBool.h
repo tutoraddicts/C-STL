@@ -11,13 +11,14 @@
  * just simple declear a variable 
  */
 
-typedef enum {
-    false = 0,
-    true = 1
+typedef enum unsiged{
+    __false = 0,
+    __true = 1,
 }__bool;
 
 #define bool __bool
-
+#define false __false
+#define true __true
 
 // typedef int bool;
 // enum {false = 0, true = 1};
