@@ -3,7 +3,7 @@ Simple Library for C with some useful features to use
 
 <h3>Feature One -> </h3>bool for c with false and true data type
   
-<h3>Feature Two -> </h3>added <b1>single Linked List</b> with type casting <b><a href = "https://github.com/tutoraddicts/C-STL/blob/master/LINKEDLIST/Documentaion/Functions.md" >To know more Click Here</a></b>
+<h3>Single LinkedList -> </h3>added <b1>single Linked List</b> with type casting <b><a href = "https://github.com/tutoraddicts/C-STL/blob/master/LINKEDLIST/Documentaion/Functions.md" >To know more Click Here</a></b>
   
 <h3>Feature Three -> </h3>added duble Linked List with data type casting
 
