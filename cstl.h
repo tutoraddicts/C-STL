@@ -5,12 +5,12 @@
  * Documentation part of the clib library
  */
 
-    #include "CBool.h"
+    #include "sub_head/CBool.h"
     #define bool __bool
     #define false __false
     #define true __true
 
-    #include "CString.h"
+    #include "sub_head/CString.h"
     #define string CString
     /* 
      * Return the size of the string you are passing __s 
@@ -31,7 +31,7 @@
 
 
     // linked list
-    #include "CLinkedList.h"
+    #include "sub_head/CLinkedList.h"
     /* 
      * Create linked list linkelist(data_type) ex. linkelist(int) for int type linkedlist
      */
@@ -54,7 +54,7 @@
 
 
     // double linkedlist
-    #include "CduoLinkList.h"
+    #include "sub_head/CduoLinkList.h"
     /* 
      * Create linked list Dlinkelist(data_type) ex. Dlinkelist(int) for int type linkedlist
      */
