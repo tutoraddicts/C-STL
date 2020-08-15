@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "clib.h"
+#include "cstl.h"
+
 /*
  * for testing the header files
  */
@@ -29,14 +30,14 @@ int main ( ) {
 
     // printf("%u, %s\n", cl[0].next ,cl[0].buffer);
 
-    CLinkList(int) test = New_CLinkList(int, 3);\
+    CLinkList(int) test = New_CLinkList(int);
 
     test->buffer = 10;
 
     // ClinkList_push_back(test, int, 25);
 
-    ClinkList_push_back(test, int, 20);
-    ClinkList_push_back(test, int, 30);
+    linklist_pushback(test, int, 20);
+    linklist_pushback(test, int, 30);
     // {
     //     CLinkList(int) temp = test;
     //     CLinkList(int) cur = New_CLinkList(int, 1);
@@ -72,7 +73,7 @@ int main ( ) {
 }
 
 void testSting(){
-    CString name;
+    string name;
     name = "pritam";
     CStringSetSize(name, 10);
     long size = CStringLen(name);
