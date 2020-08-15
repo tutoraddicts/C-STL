@@ -56,7 +56,6 @@ void* __ClinkList_at(void* __CLiskList, int __index){
         __CLinkList->next = New_CLinkList(__data_type);\
         __CLinkList->next->buffer = __data;\
         __CLinkList = temp;\
-        free(temp);\
     }
 
 #endif

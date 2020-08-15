@@ -68,9 +68,8 @@ void* __DuoClinkList_at(void* __CDuoLiskList, int __index){
         CDuoLinkList(__data_type) temp = __CLinkList;\
         while(__CLinkList->right != NULL){__CLinkList = __CLinkList->right;}\                                                   
         __CLinkList->right = New_CDuoLinkList(__data_type);\
-        __CLinkList->right->buffer = __data\
-        __CLinkList = temp\
-        free(temp);\
+        __CLinkList->right->buffer = __data;\
+        __CLinkList = temp;\
     }
-    
+
 #endif
