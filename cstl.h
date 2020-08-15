@@ -5,15 +5,6 @@
  * Documentation part of the clib library
  */
 
-/*
- * LinkedList Instruction ->
- * 
- * How to create the variable
- * ClinkList(type) _var = New_CLinkList(int, __size)
- * make sure you use New_ClinkList when ever you create new varaibele
- * __size is the size of the linkedList
- * For more instruction go to /LINKEDLIST/Documentation
- */
     #include "CBool.h"
     #define bool __bool
     #define false __false
@@ -36,7 +27,7 @@
     /* 
      * Set the size accortding to it's data inside string 
      */
-    #define str_resize(__s) FitCstring(__s)
+    #define str_fitsize(__s) FitCstring(__s)
 
 
     // linked list
