@@ -60,7 +60,6 @@ void* __DuoClinkList_at(void* __CDuoLiskList, int __index){
         while(__CLinkList->next != NULL){__CLinkList = __CLinkList->left;}\                                                   
         __CLinkList->left = New_CDuoLinkList(__data_type);\
         __CLinkList->left->buffer = __data\
-        free(temp);\
     }
 
 #define CDuolinkList_push_front(__CDuoLiskList, __data_type, __data)\
