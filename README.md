@@ -2,16 +2,16 @@
 Simple Library for C with some useful features to use :relieved:
 
 ### CBool 
-bool data type for c. To know more (Click Here)[Docs/cbool/instruction.md] 
+*bool* data type for c. To know more [Click Here](Docs/cbool/instruction.md)
   
 ### Single LinkedList 
-***single Linked List*** with *Type Casting* feature and some usefull methods
+*single Linked List* with *Type Casting* feature and some usefull methods To know more [Click Here](Docs/linkedlist/instruction.md)
   
 ### Double Linked List 
-***duble Linked List*** with *Type Casting* feature and some usefull methods
+*duble Linked List* with *Type Casting* feature and some usefull methods To know more [Click Here](Docs/linkedlist/instruction.md)
 
-### Feature Four
-string Data Type(*keyword*) for c. To know more (Click Here)[Docs/cbool/instruction.md]
+### CString
+*string* Data Type(*keyword*) for c. To know more [Click Here](Docs/cstring/instruction.md)
 
 # How To Use?
 #### Step 1 
