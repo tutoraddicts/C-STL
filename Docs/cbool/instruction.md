@@ -13,4 +13,4 @@ You ***false*** and ***true*** as a bool data type<br>
 
 # OTHER
 [Learn about string](../cstring/instruction.md)<br>
-[learn about Linked List](https://github.com/tutoraddicts/C-STL/blob/master/Docs/linkedlist/instruction.md)
+[Learn about Linked List](../linkedlist/instruction.md)
