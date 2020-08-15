@@ -22,5 +22,5 @@ May be in some certain condition you want to increase the size of you string var
 This function fit the size of the string according to how much data it have
 
 # OTHER
-[Learn about bool](../cbool/instruction.md)<br> :relieved:
+[Learn about bool](../cbool/instruction.md) :relieved: <br> 
 [Learn about Linked List](../linkedlist/instruction.md) :relieved:

@@ -28,5 +28,5 @@ In this library we have two type of Linked list
     will update letter :P
 
 # OTHER
-[Learn about string](../cstring/instruction.md)<br> :relieved:
+[Learn about string](../cstring/instruction.md) :relieved: <br> 
 [Learn about bool](../cbool/instruction.md) :relieved:

@@ -12,5 +12,5 @@ You ***false*** and ***true*** as a bool data type<br>
     true    : 1
 
 # OTHER
-[Learn about string](../cstring/instruction.md)<br> :relieved:
+[Learn about string](../cstring/instruction.md) :relieved: <br> 
 [Learn about Linked List](../linkedlist/instruction.md) :relieved:
