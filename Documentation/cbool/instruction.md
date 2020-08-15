@@ -5,7 +5,7 @@
 
 <h3>How to use it : </h3>
 <b>Decleare : </b> you can easily declear bool just like you declear any other variable in C. as an example <br>
-<q cite="https://www.imdb.com/title/tt0062622/quotes/qt0396921" > bool my_variable </q> <br>
+> bool my_variable
 
 <h3>Extra Information : </h3>
 You <b>false</b> and <b>true</b> as a bool data type<br>
