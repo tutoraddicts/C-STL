@@ -12,7 +12,7 @@ bool my_variable;
 ```
 
 ### Extra Information :
-You ***false* and ***true*** as a bool data type<br>
+You ***false*** and ***true*** as a bool data type<br>
 
     false   : 0
     true    : 1
