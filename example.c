@@ -75,7 +75,7 @@ int main ( ) {
 void testSting(){
     string name;
     name = "pritam";
-    CStringSetSize(name, 10);
+    str_reallocsize(name, 10);
     long size = CStringLen(name);
     printf("%s : %d\n", name, size);
 }

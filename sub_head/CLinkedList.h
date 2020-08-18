@@ -25,17 +25,6 @@
 #define New_CLinkList(__data_type) (CLinkList(__data_type))malloc(sizeof(LIST(__data_type))) 
 
 /*
- * Get the linkedList Value in certain index example for xth(0) variable pass x+1(1)
- */
-// #define ClinkList_At(__CLinkList, __index)      
-//     CLinkList(__data_type) temp = __CLinkList; 
-//     while(--__index) {temp = temp->next;}       
-//     temp                                        
-    
-// #define ClinkList_At(__CLinkList, __index)
-//     __CLinkList[__index] 
-
-/*
  * return the linked list of specific index
  */
 void* __ClinkList_at(void* __CLiskList, int __index){

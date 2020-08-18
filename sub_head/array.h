@@ -3,16 +3,8 @@
 #include <stdlib.h>
 
 /* array(int) my_variable; */
-#define array(__data_type)\
-    __data_type* 
-
-/* array(int, my_variable); */
-#define array(__data_type, __var_name)\
-    __data_type* __var_name
-
-/* array(int, my_variable, 10); */
-#define array(__data_type, __var_name, __size)\
-    __data_type __var_name[__size]
+#define array(__data_type, __args...)\
+    __data_type* ## __args
 
 /* array_new(int, 10); */
 #define array_new(__data_type, __size) \
@@ -21,13 +13,6 @@
 /* array_resize(int, 20); */
 #define array_resize(__data_type, __size)\
     (__data_type*)malloc(__size * sizeof(__data_type))
-
-/* array_resize(int, my_variable, 20); */
-#define array_resize(__data_type, __var_name, __size)\
-    __var_name = (__data_type*)malloc(__size * sizeof(__data_type))
-
-/* array_delet my_variable > if error coming try array_delet(my_varaiable)*/
-#define array_delet delet[]
 
 /* array_delet(my_varaiable)*/
 #define array_delet(__array)\
@@ -49,14 +34,5 @@
         __var_name = array_resize(__data_type, size);\
         __var_name[size-1] = __data;\
     }
-
-/* array_push_back(int, my_varaiable) = data; */
-#define array_push_back(__data_type, __var_name)\
-    {\
-        long size = array_size(__var_name);\
-        size++;\
-        __var_name = array_resize(__data_type, size);\
-    }\
-    __var_name[size-1]
 
 #endif // !ARRAY_HEADER

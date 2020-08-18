@@ -23,7 +23,7 @@
     /* 
      * Reallocate or resize the string 
      */
-    #define str_reallocsize(__s, __size) CStringReallocSize(__s, __size)
+    #define str_reallocsize(__s, __size) __s = CStringReallocSize(__s, __size)
     /* 
      * Set the size accortding to it's data inside string 
      */
@@ -83,26 +83,22 @@
 
     #include "sub_head/array.h"
     /* create an array of any_type ex arr(int) my_array;*/
-    #define arr(__dt) array(__dt)
-    /* create an array of any_type ex arr(int, my_array);*/
-    #define arr(__dt, __name) array(__data_type, __var_name)
-    /* create an array of any_type with perticular size ex arr(int, my_array, 10);*/
-    #define arr(__data_type, __var_name, __size)
+    #define arr(__dt, args...) array(__dt, args)
+
     /* allocate the memory of the array with size ex. new_arr(int, 10)*/
     #define new_arr(__dt, __s) array_new(__dt, __s)
+    
     /* resize the memory allocation with certain size ex. = resize_arr(int, 20)*/
     #define resize_arr(__dt, __s) array_resize(__data_type, __size)
-    /* resize the memory ex. resize_arr(int, my_array, 20);*/
-    #define resize_ar(__dt, __name, __size) array_resize(__dt, __name, __size)
-    /* del_arr my_variable > if error coming try del_arr(my_varaiable)*/
-    #define del_arr array_delet
+    
     /* array_delet(my_array)*/
     #define del_arr(__var) array_delet(__var)
+    
     /* get array value in certain index if index is higher them return -1 ex. data = arr_at(my_array, index)*/
     #define arr_at(__var, __i) array_at(__var, __i)
+    
     /* push value in the end of the array ex. arr_pushback(int, my_array, 57)*/ 
     #define arr_pushback(__dt, __var, __d) array_push_back(__dt, __var, __d)
-    /* arr_pushback(int, my_varaiable) = data; */
-    #define arr_pushback(__dt, __var) array_push_back(__dt, __var)
+    
 #endif // !C_STD_L
 

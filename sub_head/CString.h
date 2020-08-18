@@ -17,21 +17,21 @@ long CStringLen(CString _string){
 /*
  * Set the size of the string and set all the values with 'null'
  */
-void CStringSetSize(CString __string, long __size){ __string = (CString)malloc(__size*sizeof(char)); }
+#define CStringSetSize(__size) (CString)malloc(__size*sizeof(char))
 
 /*
  * Reallocate the memory of string according to the size you provide and the prev value remain same
  */
-void CStringReallocSize(CString __string, long __size) { __string = (CString)realloc(__string, __size*sizeof(char)); }
+#define CStringReallocSize(__string, __size) (CString)realloc(__string, __size*sizeof(char))
 
 /*
  * Fir the size og the string according to it's values
  * mostusefull function when you don't know how much calue it is going to store
- * and return the size of the string
+ * and return the new size of the string
  */
 long FitCstring(CString __string) { 
     long _size = CStringLen(__string);
-    CStringReallocSize(__string, _size);
+    __string = CStringReallocSize(__string, _size);
     return _size;
 } 
 
