@@ -9,10 +9,7 @@
 
 typedef char* CString; // variable of string
 
-long CStringLen(CString _string){
-    if (*_string++) return (long)CStringLen(_string)+1;
-    else return (long)0;
-}
+long CStringLen(CString _string);
 
 /*
  * Set the size of the string and set all the values with 'null'
@@ -29,11 +26,7 @@ long CStringLen(CString _string){
  * mostusefull function when you don't know how much calue it is going to store
  * and return the new size of the string
  */
-long FitCstring(CString __string) { 
-    long _size = CStringLen(__string);
-    __string = CStringReallocSize(__string, _size);
-    return _size;
-} 
+long FitCstring(CString __string);
 
 
 #endif

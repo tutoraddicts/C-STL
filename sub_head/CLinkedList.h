@@ -27,10 +27,7 @@
 /*
  * return the linked list of specific index
  */
-void* __ClinkList_at(void* __CLiskList, int __index){
-    while(--__index) {__CLiskList = ((CLinkList(void))__CLiskList)->next;}
-    return __CLiskList;
-}
+void* __ClinkList_at(void* __CLiskList, int __index);
 
 /*
  * Access the linked list in certain index

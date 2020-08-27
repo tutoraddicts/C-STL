@@ -5,15 +5,16 @@
 #include <stdlib.h>
 
 /*
- * Instruction >
- */
-
-/*
  * How to create the variable
  * ClinkList(type) _var = New_CLinkList(int, __size)
  * make sure you use New_ClinkList when ever you create new varaibele
  * __size is the size of the linkedList
  */
+
+/*
+ * return the linked list of specific index
+ */
+void* __DuoClinkList_at(void* __CDuoLiskList, int __index);
 
 #define DuoList(__data_type)\
     struct {\
@@ -37,16 +38,6 @@
  */
 #define New_CDuoLinkList(__data_type)\
     (CDuoLinkList(__data_type))malloc(sizeof(DuoList(__data_type)))
-
-/*
- * return the linked list of specific index
- */
-void* __DuoClinkList_at(void* __CDuoLiskList, int __index){
-    CDuoLinkList(void) temp = __CDuoLiskList;
-    while ( temp->right != NULL ) { temp = temp->right; }
-    while(--__index) { temp = temp->left; }
-    return temp;
-}
 
 /*
  * Access the linked list in certain index
