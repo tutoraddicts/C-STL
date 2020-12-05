@@ -5,33 +5,13 @@
  * Documentation part of the clib library
  */
 
-    #include "sub_head/CBool.h"
+    #include "CBool.h"
     #define bool __bool
     #define false __false
     #define true __true
 
-    #include "sub_head/CString.h"
-    #define string CString
-    /* 
-     * Return the size of the string you are passing __s 
-     */
-    #define str_len(__s) CStringLen(__s)
-    /* 
-     * Set the size of the string str_setsize(string, size you want) 
-     */
-    #define str_setsize(__s, __size) CStringSetSize(__s, __size)
-    /* 
-     * Reallocate or resize the string 
-     */
-    #define str_reallocsize(__s, __size) __s = CStringReallocSize(__s, __size)
-    /* 
-     * Set the size accortding to it's data inside string 
-     */
-    #define str_fitsize(__s) FitCstring(__s)
-
-
     // linked list
-    #include "sub_head/CLinkedList.h"
+    #include "CLinkedList.h"
     /* 
      * Create linked list linkelist(data_type) ex. linkelist(int) for int type linkedlist
      */
@@ -54,7 +34,7 @@
 
 
     // double linkedlist
-    #include "sub_head/CduoLinkList.h"
+    #include "CduoLinkList.h"
     /* 
      * Create linked list Dlinkelist(data_type) ex. Dlinkelist(int) for int type linkedlist
      */
@@ -81,7 +61,7 @@
     #define Dlinklist_pushfront(__ob, __t, __d) CDuolinkList_push_front(__ob, __t, __d)
 
 
-    #include "sub_head/array.h"
+    #include "array.h"
     /* create an array of any_type ex arr(int) my_array;*/
     #define arr(__dt, args...) array(__dt, args)
 

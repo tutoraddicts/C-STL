@@ -1,6 +1,10 @@
 # C-STL
     Simple Library for C with some useful features to use :relieved:
 
+## How to use it
+    Copy The Header Files Into Your Project Folder
+
+*Check the bellow documents for farther information* 
 ### CBool 
 *bool* data type for c. 
 To know more [Click Here](Docs/cbool/instruction.md)
@@ -10,9 +14,6 @@ To know more [Click Here](Docs/cbool/instruction.md)
   
 ### Double Linked List 
 *duble Linked List* with *Type Casting* feature and some usefull methods To know more [Click Here](Docs/linkedlist/instruction.md)
-
-### CString
-*string* Data Type(*keyword*) for c. To know more [Click Here](Docs/cstring/instruction.md)
 
 # How To Use?
 #### Step 1 
