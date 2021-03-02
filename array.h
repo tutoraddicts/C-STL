@@ -12,7 +12,7 @@
 
 /* array_resize(int, 20); */
 #define array_resize(__data_type, __size)\
-    (__data_type*)malloc(__size * sizeof(__data_type))
+    (__data_type*)realloc(__size * sizeof(__data_type))
 
 /* array_delet(my_varaiable)*/
 #define array_delet(__array)\
